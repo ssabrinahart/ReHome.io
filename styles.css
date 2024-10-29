@@ -66,6 +66,17 @@ section h3 {
     height: 500px; /* Maintains aspect ratio */
     margin: 1em 0; /* Adds spacing above and below */
 }
+
+.apiDiagram {
+    height: 500px;
+}
+
+.imagesCentered {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em
+}
+
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
