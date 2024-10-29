@@ -40,10 +40,12 @@ body {
 
 /* Sections */
 section {
+    width: 95%;
     padding: 3em;
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: #f4f4f4;
     border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
 }
 
 /* Padding for paragraph text within sections */
