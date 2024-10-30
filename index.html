@@ -28,7 +28,7 @@
 
 <!-- Content Sections -->
 <section id="section1">
-    <h2>Background</h2>
+    <h2 style="justify-content: center; display: flex">Background</h2>
     <p>
         ReHome is a software system designed as an online marketplace for buying and selling used
         furniture, providing a specialized platform to connect local buyers and sellers.
@@ -46,7 +46,7 @@
 </section>
 
 <section id="section2">
-    <h2>Use Cases</h2>
+    <h2 style="justify-content: center; display: flex">Use Cases</h2>
     <p>
         There are 2 main types of intended users for the ReHome platform. One type of user would be the
         sellers who are interested in selling their furniture to others. The second are users who are
@@ -98,7 +98,8 @@
         <p>3 - Message potential sellers to ask about the price, when the item will be available for pickup, and
             other purchase details</p>
         <p>4- Be able to vet/get assurance that the seller she chooses is a real person and not a scammer</p>
-        <p>5- Safely transfer the money with a cash back guarantee that she can get her money back in the case of a scam</p>
+        <p>5- Safely transfer the money with a cash back guarantee that she can get her money back in the case of a
+            scam</p>
 
         <p>
             In the end, Rachel hopes to find some good quality furniture pieces from other locals without a
@@ -118,7 +119,9 @@
 </section>
 
 <section id="section3">
-    <h2>Requirements</h2>
+    <h2 style="justify-content: center; display: flex">Requirements</h2>
+    <h2>Users</h2>
+
     <p>
         <span style="font-weight: bold;">
             Customer:
@@ -143,76 +146,121 @@
     </p>
 
     <p class="requirements">
-        <h2>Functional Requirements</h2>
+    <h2>Functional Requirements</h2>
 
-        <p><strong>FR-1: User Registration and Authentication</strong></p>
-        <p>FR1.1: The system shall allow users to register an account by providing basic information (e.g., name, email, password).</p>
-        <p>FR1.2: The system shall require registered users to authenticate via login credentials (username and password) to access buying and selling features.</p>
-        <p>FR1.3: The system shall offer account recovery options (e.g., password reset via email) for users who forget their login credentials.</p>
-        <p>FR1.4: The system shall provide an option for users to authenticate their identity through a third-party service during registration or login.</p>
+    <p><strong>FR-1: User Registration and Authentication</strong></p>
+    <p>FR1.1: The system shall allow users to register an account by providing basic information (e.g., name, email,
+        password).</p>
+    <p>FR1.2: The system shall require registered users to authenticate via login credentials (username and password) to
+        access buying and selling features.</p>
+    <p>FR1.3: The system shall offer account recovery options (e.g., password reset via email) for users who forget
+        their login credentials.</p>
+    <p>FR1.4: The system shall provide an option for users to authenticate their identity through a third-party service
+        during registration or login.</p>
 
-        <p><strong>FR-2: Listing Management for Sellers</strong></p>
-        <p>FR2.1: The system shall allow sellers to create furniture listings by providing essential information, including photos, descriptions, and pricing.</p>
-        <p>FR2.2: The system shall support editing and updating listings, enabling sellers to modify item details as necessary.</p>
-        <p>FR2.3: The system shall allow sellers to delete listings from the marketplace when items are sold or no longer available.</p>
+    <p><strong>FR-2: Listing Management for Sellers</strong></p>
+    <p>FR2.1: The system shall allow sellers to create furniture listings by providing essential information, including
+        photos, descriptions, and pricing.</p>
+    <p>FR2.2: The system shall support editing and updating listings, enabling sellers to modify item details as
+        necessary.</p>
+    <p>FR2.3: The system shall allow sellers to delete listings from the marketplace when items are sold or no longer
+        available.</p>
 
-        <p><strong>FR-3: Search and Filtering for Buyers</strong></p>
-        <p>FR3.1: The system shall allow buyers to search for furniture listings using keywords (e.g., “couch,” “dining table”).</p>
-        <p>FR3.2: The system shall offer advanced filtering options, including location, price range, item condition, and furniture type.</p>
-        <p>FR3.3: The system shall display search results that match the buyer's criteria, organized by relevance or proximity.</p>
+    <p><strong>FR-3: Search and Filtering for Buyers</strong></p>
+    <p>FR3.1: The system shall allow buyers to search for furniture listings using keywords (e.g., “couch,” “dining
+        table”).</p>
+    <p>FR3.2: The system shall offer advanced filtering options, including location, price range, item condition, and
+        furniture type.</p>
+    <p>FR3.3: The system shall display search results that match the buyer's criteria, organized by relevance or
+        proximity.</p>
 
-        <p><strong>FR-4: Secure Transaction and Payment Processing</strong></p>
-        <p>FR4.1: The system shall integrate secure payment options, like embedded payments within the platform, to facilitate transactions between buyers and sellers.</p>
-        <p>FR4.2: The system shall provide payment protection features, such as escrow or similar services, to ensure transaction security and build trust between buyers and sellers.</p>
-        <p>FR4.3: The system shall notify both parties (buyer and seller) upon successful transaction completion.</p>
+    <p><strong>FR-4: Secure Transaction and Payment Processing</strong></p>
+    <p>FR4.1: The system shall integrate secure payment options, like embedded payments within the platform, to
+        facilitate transactions between buyers and sellers.</p>
+    <p>FR4.2: The system shall provide payment protection features, such as escrow or similar services, to ensure
+        transaction security and build trust between buyers and sellers.</p>
+    <p>FR4.3: The system shall notify both parties (buyer and seller) upon successful transaction completion.</p>
 
-        <p><strong>FR-5: Virtual Room Placement Tool</strong></p>
-        <p>FR5.1: The system shall provide a virtual room placement feature that allows buyers to upload room dimensions or use a real-time camera view to visualize how selected furniture items will fit within their space.</p>
-        <p>FR5.2: The system shall allow buyers to save and adjust room placements to explore different furniture arrangements.</p>
+    <p><strong>FR-5: Virtual Room Placement Tool</strong></p>
+    <p>FR5.1: The system shall provide a virtual room placement feature that allows buyers to upload room dimensions or
+        use a real-time camera view to visualize how selected furniture items will fit within their space.</p>
+    <p>FR5.2: The system shall allow buyers to save and adjust room placements to explore different furniture
+        arrangements.</p>
 
-        <p><strong>FR-6: User Communication and Notifications</strong></p>
-        <p>FR6.1: The system shall allow buyers and sellers to communicate through an in-platform messaging system to coordinate purchases and delivery details.</p>
-        <p>FR6.2: The system shall send notifications to users for important events, such as new messages, listing updates, or transaction completions.</p>
+    <p><strong>FR-6: User Communication and Notifications</strong></p>
+    <p>FR6.1: The system shall allow buyers and sellers to communicate through an in-platform messaging system to
+        coordinate purchases and delivery details.</p>
+    <p>FR6.2: The system shall send notifications to users for important events, such as new messages, listing updates,
+        or transaction completions.</p>
 
-        <p><strong>FR-7: User Profile and History Management</strong></p>
-        <p>FR7.1: The system shall allow users to view and edit their profile information, including personal details and preferences.</p>
-        <p>FR7.2: The system shall keep a history of each user’s transactions (purchases and sales) for reference and record-keeping.</p>
+    <p><strong>FR-7: User Profile and History Management</strong></p>
+    <p>FR7.1: The system shall allow users to view and edit their profile information, including personal details and
+        preferences.</p>
+    <p>FR7.2: The system shall keep a history of each user’s transactions (purchases and sales) for reference and
+        record-keeping.</p>
 
-        <p><strong>FR-8: Feedback and Rating System</strong></p>
-        <p>FR8.1: The system shall allow buyers and sellers to provide feedback on transactions to enhance transparency and trust within the marketplace.</p>
-        <p>FR8.2: The system shall display user ratings and reviews, helping other users assess the reliability of buyers and sellers.</p>
+    <p><strong>FR-8: Feedback and Rating System</strong></p>
+    <p>FR8.1: The system shall allow buyers and sellers to provide feedback on transactions to enhance transparency and
+        trust within the marketplace.</p>
+    <p>FR8.2: The system shall display user ratings and reviews, helping other users assess the reliability of buyers
+        and sellers.</p>
     </p>
 
     <p class="requirements">
-        <h2>Non-Functional Requirements</h2>
+    <h2>Non-Functional Requirements</h2>
 
-        <p><strong>NFR-1: Performance</strong>: ReHome should efficiently handle high volumes of concurrent users browsing, listing, and completing transactions. Listings on ReHome must load within 2 seconds, and images should upload in under 5 seconds to ensure a smooth experience for both buyers and sellers.</p>
+    <p><strong>NFR-1: Performance</strong>: ReHome should efficiently handle high volumes of concurrent users browsing,
+        listing, and completing transactions. Listings on ReHome must load within 2 seconds, and images should upload in
+        under 5 seconds to ensure a smooth experience for both buyers and sellers.</p>
 
-        <p><strong>NFR-2: Scalability</strong>: ReHome must be scalable to accommodate an increasing number of users, listings, and transactions. As ReHome grows, it should continue to function smoothly, even during spikes in traffic, such as special sales or promotions.</p>
+    <p><strong>NFR-2: Scalability</strong>: ReHome must be scalable to accommodate an increasing number of users,
+        listings, and transactions. As ReHome grows, it should continue to function smoothly, even during spikes in
+        traffic, such as special sales or promotions.</p>
 
-        <p><strong>NFR-3: Security</strong>: ReHome must prioritize user data security by implementing secure authentication mechanisms, encrypting sensitive information such as payment details, and ensuring compliance with data protection laws like GDPR. ReHome must also include fraud prevention features and safeguards for safe transactions. ReHome also verifies the identities of every user to ensure they are real people and not impersonating anyone.</p>
+    <p><strong>NFR-3: Security</strong>: ReHome must prioritize user data security by implementing secure authentication
+        mechanisms, encrypting sensitive information such as payment details, and ensuring compliance with data
+        protection laws like GDPR. ReHome must also include fraud prevention features and safeguards for safe
+        transactions. ReHome also verifies the identities of every user to ensure they are real people and not
+        impersonating anyone.</p>
 
-        <p><strong>NFR-4: Availability</strong>: ReHome must maintain high availability, ensuring at least 99.9% uptime. In case of system failure, ReHome must have robust backup and disaster recovery processes in place to quickly restore services without major disruption.</p>
+    <p><strong>NFR-4: Availability</strong>: ReHome must maintain high availability, ensuring at least 99.9% uptime. In
+        case of system failure, ReHome must have robust backup and disaster recovery processes in place to quickly
+        restore services without major disruption.</p>
 
-        <p><strong>NFR-5: Usability</strong>: ReHome’s user interface should be designed for simplicity and ease of use, making it intuitive for both buyers and sellers. The navigation, filtering options, and listing creation tools on ReHome should be clear and easy to interact with, providing a pleasant user experience for all demographics.</p>
+    <p><strong>NFR-5: Usability</strong>: ReHome’s user interface should be designed for simplicity and ease of use,
+        making it intuitive for both buyers and sellers. The navigation, filtering options, and listing creation tools
+        on ReHome should be clear and easy to interact with, providing a pleasant user experience for all demographics.
+    </p>
 
-        <p><strong>NFR-6: Maintainability</strong>: ReHome should adopt a modular architecture to facilitate easy maintenance, including updates, bug fixes, and the addition of new features. Developers should be able to modify and expand ReHome’s system without causing significant downtime or breaking existing functionality.</p>
+    <p><strong>NFR-6: Maintainability</strong>: ReHome should adopt a modular architecture to facilitate easy
+        maintenance, including updates, bug fixes, and the addition of new features. Developers should be able to modify
+        and expand ReHome’s system without causing significant downtime or breaking existing functionality.</p>
 
-        <p><strong>NFR-7: Compatibility</strong>: ReHome must be compatible with a variety of platforms, including different web browsers (Chrome, Firefox, Safari) and mobile devices (iOS, Android). Users should have a consistent experience accessing ReHome across all devices.</p>
+    <p><strong>NFR-7: Compatibility</strong>: ReHome must be compatible with a variety of platforms, including different
+        web browsers (Chrome, Firefox, Safari) and mobile devices (iOS, Android). Users should have a consistent
+        experience accessing ReHome across all devices.</p>
 
-        <p><strong>NFR-8: Reliability</strong>: ReHome must be reliable in processing transactions without errors. Payment processing and notifications (such as order confirmations) on ReHome should be dependable to ensure trust and minimize potential disputes between buyers and sellers.</p>
+    <p><strong>NFR-8: Reliability</strong>: ReHome must be reliable in processing transactions without errors. Payment
+        processing and notifications (such as order confirmations) on ReHome should be dependable to ensure trust and
+        minimize potential disputes between buyers and sellers.</p>
 
-        <p><strong>NFR-9: Responsiveness</strong>: ReHome must be responsive to user inputs, including searches, filtering options, and interactive tools like the virtual room placement feature. The system should minimize latency to provide users with real-time feedback as they browse or interact with listings.</p>
+    <p><strong>NFR-9: Responsiveness</strong>: ReHome must be responsive to user inputs, including searches, filtering
+        options, and interactive tools like the virtual room placement feature. The system should minimize latency to
+        provide users with real-time feedback as they browse or interact with listings.</p>
 
-        <p><strong>NFR-10: Legal Compliance</strong>: ReHome must comply with all relevant e-commerce, consumer protection, and tax laws. It should ensure that all transactions on ReHome follow applicable regulations to protect both the business and its users from legal risks.</p>
+    <p><strong>NFR-10: Legal Compliance</strong>: ReHome must comply with all relevant e-commerce, consumer protection,
+        and tax laws. It should ensure that all transactions on ReHome follow applicable regulations to protect both the
+        business and its users from legal risks.</p>
 
-        <p><strong>NFR-11: Fault Tolerance</strong>: ReHome should be able to quickly recover if a specific component in the system fails. As it has a modular architecture, if one fails it should not affect the others, and ReHome should also remain operational.</p>
+    <p><strong>NFR-11: Fault Tolerance</strong>: ReHome should be able to quickly recover if a specific component in the
+        system fails. As it has a modular architecture, if one fails it should not affect the others, and ReHome should
+        also remain operational.</p>
     </p>
 
 </section>
 
 <section id="section4">
-    <h2>High Level Design</h2>
+    <h2 style="justify-content: center; display: flex">High Level Design</h2>
     <p>
         Our team chose to use a microservice architecture to develop our application. In this design, the business
         logic is separated into microservices that handle different functions within the app. This overall design can
@@ -242,17 +290,344 @@
 </section>
 
 <section id="section5">
-    <h2>Modules</h2>
-    <p>This is the content for section 5.</p>
+    <h2 style="justify-content: center; display: flex">Modules</h2>
+    <div id="modules">
+        <p>Combining individual modules together can help create a fully functional system for a furniture marketplace
+            like ReHome. These modules are listed below:</p>
+
+        <p><strong>Module 1: Selling Furniture Service</strong></p>
+        <div class="moduleLists">
+            <p> The Selling Furniture Service is a critical module for the system designed to
+                create listings for pieces of furniture that need to be sold on the platform. Its main purpose is
+                to help the seller advertise their items for sale to people located in the same area as the buyer.
+            </p>
+
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The user will select “Create New Listing” on the homepage of ReHome while logged into their
+                    account.</p>
+                <p>2. The user will be able to enter a name for their listing, price, and the category in which their
+                    furniture fits into (such as sofa, desk, etc.).</p>
+                <p>3. The user will be able to add optional filters for their listing if they choose to do so. This
+                    includes information about colors, measurements, and more.</p>
+                <p>4. Once posted, the user can go to the “My Listing” section of ReHome to see their new listing, and
+                    keep track of interested buyers.</p>
+                <p>5. Once a potential buyer has commented on their listing expressing their interest, the seller can
+                    choose to start a conversation with that person.</p>
+                <p>6. Once the buyer and seller have come to an agreement for the purchase of the item, the seller can
+                    go to their listing and mark it as “Sale Completed.”</p>
+            </ol>
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 2: Buying Furniture Service</strong></p>
+        <div class="moduleLists">
+            <p> The Buying Furniture
+                Service is a module designed to allow ReHome users to search for listings for pieces of furniture they
+                may be interested in purchasing. Its main purpose is to make it easier for the buyer to find items for
+                sale in their local area.
+
+            </p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The user will select “Create New Listing” on the homepage of ReHome while logged into their
+                    account.</p>
+                <p>2. The user will be able to enter a name for their listing, price, and the category in which their
+                    furniture fits into (such as sofa, desk, etc.).</p>
+                <p>3. The user will be able to add optional filters for their listing if they choose to do so. This
+                    includes information about colors, measurements, and more.</p>
+                <p>4. Once posted, the user can go to the “My Listing” section of ReHome to see their new listing, and
+                    keep track of interested buyers.</p>
+                <p>5. Once a potential buyer has commented on their listing expressing their interest, the seller can
+                    choose to start a conversation with that person.</p>
+                <p>6. Once the buyer and seller have come to an agreement for the purchase of the item, the seller can
+                    go to their listing and mark it as “Sale Completed.”</p>
+            </ol>
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 3: Messaging Service</strong></p>
+        <div class="moduleLists">
+            <p> The Messaging Service
+                will allow buyers and sellers to converse with each other regarding a specific listing. Its main
+                purpose is to facilitate transactions and have 1 main location where a buyer and seller can safely
+                communicate.
+            </p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The user goes to the “Messages” page to talk to another user on the platform.</p>
+                <p>2. If the user is a seller wanting to communicate about a specific listing, they must start the
+                    conversation first. They can do so by pressing the “Start New Conversation” button on the Messages
+                    page.</p>
+                <p>3. If a buyer has been messaged, they can go to the Messages page and see the new conversation, and
+                    accept the message request from the seller.</p>
+                <p>4. The message chat will allow users to send text messages and images to each other.</p>
+                <p>5. The message chat will allow users to “favorite” a message in the chat to highlight it for future
+                    reference.</p>
+                <p>6. If the buyer is interested in adding more than 1 person to the message conversation, they can do
+                    so by pressing “Add New Person” in the specific chat to make it into a group conversation.</p>
+                <p>7. At any time, any user has the option to select “Leave Conversation” and end the conversation.</p>
+            </ol>
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 4: Account Management Service</strong></p>
+        <div class="moduleLists">
+            <p> The Account Management Service will allow users (buyers and sellers) to create an account and make
+                changes to their account details. Its main purpose is to give every user a unique ID that will then be
+                tied to their listings, purchases, transactions, and conversations. This service will also allow each
+                user to have a profile that other users can visit.
+            </p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. If the user does not have an account, they will choose to “Create an Account.”</p>
+                <p class="abList">a. The user will be prompted to enter required information (e.g., first and
+                    last name, date of birth, email address, username, password) and optional identification
+                    information (e.g., home address, pickup/dropoff preferences, language, profile picture).
+                </p>
+                <p class="abList">b. After completing at least the required information, the user will choose to
+                    “Submit,” and an account will be created for them.</p>
+                <p>2. If the user does have an account, they will choose to “Login.”</p>
+                <p class="abList">a. The user will be prompted to enter their username and password.</p>
+                <p class="abList">b. If the user has forgotten either field, they can select “Forgot username/password”
+                    and will receive instructions to recover their username and/or reset their password.</p>
+                <p>3. The logged-in user will select “Settings” to view the settings menu.</p>
+                <p>4. The user will be presented with a menu to select a subsection of the available settings. The user
+                    will then select “Account Settings.”</p>
+                <p class="abList">5. The user will now have the ability to change their identification information.</p>
+                <p class="abList">a. If a user has already verified their identity and they attempt to change their
+                    name, they will be alerted that changing their name will require reverification.</p>
+                <p class="abList">b. The user’s date of birth cannot be changed.</p>
+                <p>6. At the bottom of the page, the user will have the option to “Save changes.”</p>
+                <p>7. If the user does not save changes before exiting the page, they will be prompted to either “Save
+                    changes” or “Ignore changes.”</p>
+            </ol>
+
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 5: ID Verification Service</strong></p>
+        <div class="moduleLists">
+            <p> The ID Verification Service will allow users to verify their identity. This service aims to improve
+                reliability and increase user’s trust of the service. Its main purpose is to allow other users to know
+                if the person they are speaking with is a real person. This aims to reduce the number of scammers and
+                bots on the platform.
+            </p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The logged-in user will select “Settings” to view the settings menu.</p>
+                <p>2. The user will be presented with a menu to select a subsection of available settings. The user will
+                    then select “ID Verification.”</p>
+                <p>3. If the user has already verified their ID, they will see a message that says “Your ID has been
+                    verified.”</p>
+                <p>4. If the user has not verified their ID, they will be prompted to upload ID forms (e.g., college ID,
+                    driver’s license) that comply with the chosen ID verification API (e.g., Onfido, Trulioo, ID.me,
+                    etc.).</p>
+                <p>5. The user will be prompted to submit their uploaded forms.</p>
+                <p>6. Once submitted, the user will be shown a confirmation message that says “Your forms have been
+                    submitted. We will notify you when your ID has been verified.”</p>
+            </ol>
+
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 6: Transaction Feedback Service</strong></p>
+        <div class="moduleLists">
+            <p>The Transaction Feedback Service will allow buyers and sellers to leave ratings for each other after a
+                verified purchase. This service also aims to improve reliability and increase users’ trust in the
+                service. Its main purpose is to allow potential buyers and sellers to see if the person they are
+                conversing with is reputable and reliable.</p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. After completing a transaction, both the buyer and seller will be prompted to leave a review.</p>
+                <p>2. Each party can choose to either leave a review or skip the review.</p>
+                <p>3. If they choose to leave a review, they will be able to rate the other party from 0 to 5 stars.
+                    They will also be able to leave a comment explaining their rating.</p>
+                <p>4. Once the user finishes rating the other party, they will select “Submit.”</p>
+                <p>5. The new ratings and reviews will be reflected on each party’s profile once both parties have
+                    either submitted or skipped the review.</p>
+            </ol>
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 7: File Complaint Service</strong></p>
+        <div class="moduleLists">
+            <p>The File Complaint Service allows users to submit complaints regarding other users or issues using the
+                app. This service aims to improve user experience by allowing customer support to evaluate and resolve
+                user conflicts. It also allows the development team to get direct feedback from users regarding bugs and
+                usability.</p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The logged-in user will select the hamburger menu in the top left corner from the home screen.</p>
+                <p>2. The user will select “Support” from the menu.</p>
+                <p>3. The user will be presented with the support menu. From the menu, the user will select “File a
+                    Complaint.”</p>
+                <p>4. The user will be prompted to categorize their complaint as one of the following:</p>
+                <p class="abList">a. Report a bug or technical issue</p>
+                <p class="abList">b. Report another user</p>
+                <p class="abList">c. Report a listing</p>
+                <p class="abList">d. Other</p>
+                <p>5. The user will then be prompted to fill out a form with both required and optional information.</p>
+                <p>6. Once the form has been completed, the user will choose to “Submit” their complaint.</p>
+                <p>7. The user will be presented with a confirmation message that says “Your complaint has been sent. We
+                    will reach out to you once it has been received.”</p>
+            </ol>
+        </div>
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 8: Virtual Room Placement Service</strong></p>
+        <div class="moduleLists">
+            <p>The Virtual Room Placement Service allows a user to virtually view the furniture listing in a room of
+                their choice. This service aims to help users when deciding to purchase an item to ensure they
+                understand how the product will look in their space.</p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. The user selects a listing they are interested in.</p>
+                <p>2. The user presses the “Visualize in Real Life” button.</p>
+                <p>3. The user can choose to either turn on their camera and show their current room, or upload a photo
+                    of a room.</p>
+                <p>4. If the user chooses to upload a photo, they can select the photo, and the platform will display
+                    the furniture in the photo.</p>
+                <p>5. If they choose to show their current room, the camera opens on the platform, and the user can move
+                    the camera to the area in which they want to place the furniture. This option is only presented if
+                    the user is using ReHome’s mobile application.</p>
+                <p>6. The user can then place the furniture and choose to move/rotate it to their liking with either
+                    option.</p>
+                <p>7. The user can press the “Save Room” button to save an image of their visualization for future
+                    use.</p>
+            </ol>
+        </div>
+
+        <hr style="width: 95%; margin: 20px auto; border: 1px solid #ccc; justify-content: center; display: flex;">
+
+        <p><strong>Module 9: Secure Payment Service</strong></p>
+        <div class="moduleLists">
+            <p>The Secure Payment Service aims to provide a safe way for buyers and sellers to complete a transaction
+                for a listing. It uses embedded payments, which rely on APIs from payment processors to have real-time
+                processing of payments. The buyer is able to get assurance that they will have their money delivered
+                safely to them.</p>
+            <p style="font-weight: bold">Work Flow:</p>
+            <ol class="list">
+                <p>1. Before starting a transaction, both the buyer and seller must confirm they have a valid payment
+                    method saved to their account.</p>
+                <p>2. If not, the user must enter their preferred payment method information.</p>
+                <p>3. ReHome will use an external tool such as Plaid to verify the payment method is valid.</p>
+                <p>4. The buyer must navigate to the message chat with the intended seller and press the “Request Money”
+                    button located in the menu of the chat if they decide to make an electronic payment.</p>
+                <p>5. If both the buyer and seller agree that a cash payment is acceptable for the listing, the buyer
+                    can mark “Sale Completed” in the listing once they have received the cash.</p>
+                <p>6. The buyer must enter the agreed-upon amount of money and press “Request.”</p>
+                <p>7. The seller receives the request payment and can select the “Pay Amount” button to transfer the
+                    money.</p>
+                <p>8. Once ReHome has verified the transaction is valid and the money has been sent, the seller can
+                    choose to press the “Sale Completed” button.</p>
+            </ol>
+        </div>
+
+    </div>
+
+    <div>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+            <tr>
+                <th>Category</th>
+                <th>Requirement ID</th>
+                <th>Design Element ID</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="8">Functional Requirements</td>
+                <td>FR-1</td>
+                <td>4, 5</td>
+            </tr>
+            <tr>
+                <td>FR-2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>FR-3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>FR-4</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>FR-5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>FR-6</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>FR-7</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>FR-8</td>
+                <td>6, 7</td>
+            </tr>
+            <tr>
+                <td rowspan="11">Non-functional Requirements</td>
+                <td>NFR-1</td>
+                <td>6, 7</td>
+            </tr>
+            <tr>
+                <td>NFR-2</td>
+                <td>1, 2, 3, 4</td>
+            </tr>
+            <tr>
+                <td>NFR-3</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>NFR-4</td>
+                <td>3, 9</td>
+            </tr>
+            <tr>
+                <td>NFR-5</td>
+                <td>1, 2, 3, 6, 7, 8</td>
+            </tr>
+            <tr>
+                <td>NFR-6</td>
+                <td>4, 5, 9</td>
+            </tr>
+            <tr>
+                <td>NFR-7</td>
+                <td>1, 2, 3, 6, 7, 8</td>
+            </tr>
+            <tr>
+                <td>NFR-8</td>
+                <td>5, 9</td>
+            </tr>
+            <tr>
+                <td>NFR-9</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>NFR-10</td>
+                <td>7, 9</td>
+            </tr>
+            <tr>
+                <td>NFR-11</td>
+                <td>1, 2, 3, 4</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
 </section>
 
 <section id="section6">
-    <h2>Design Rational</h2>
+    <h2 style="justify-content: center; display: flex">Design Rational</h2>
     <p>This is the content for section 6.</p>
 </section>
 
 <section id="section7">
-    <h2>Conclusion</h2>
+    <h2 style="justify-content: center; display: flex">Conclusion</h2>
     <p>
         ReHome is a useful system for those who want a centralized platform to navigate through the process of buying
         and selling used furniture. Its unique features like a virtual room placement tool and integrated payment
@@ -262,7 +637,8 @@
         grows. In the case of one module failing, fault tolerance can ensure the system will remain operational.
     </p>
     <p>
-        In order to support its unique features, ReHome employs the technique of hand-held augmented reality and embedded
+        In order to support its unique features, ReHome employs the technique of hand-held augmented reality and
+        embedded
         payment systems. Having hand-held augmented reality allows users to visualize the furniture in their room for
         the Virtual Room Placement Tool. This feature is a game changer for users who are interested in buying a
         product but want to ensure it will be a perfect fit in their room. Unlike many other used furniture platforms,

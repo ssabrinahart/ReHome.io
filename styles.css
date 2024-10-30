@@ -56,9 +56,16 @@ section p {
     padding-top: 1em;
 }
 
+.abList {
+    padding-left: 4em;
+}
 section h3 {
     padding-top: 1em;
     padding-left: 1.7em;
+}
+
+.list {
+    padding-left: 2em;
 }
 
 .section-image {
@@ -76,6 +83,7 @@ section h3 {
     justify-content: center;
     padding-top: 1em
 }
+
 
 /* Smooth Scrolling */
 html {
